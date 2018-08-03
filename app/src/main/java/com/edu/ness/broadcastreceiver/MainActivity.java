@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         receiver = new ConnectionReceiver();
         intentFilter = new IntentFilter("com.edu.ness.broadcastreceiver.SOME_ACTION");
+        //add sme comments
 
     }
 
